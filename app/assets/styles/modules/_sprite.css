@@ -2,11 +2,11 @@
 Instead edit gulp/templates/sprite */
 
 .icon {
-  background-image: url('../../assets/images/sprites/sprite-551ce7e5.svg')/*rtl:ignore*/;
+  background-image: url('../../assets/images/sprites/sprite-7f0b0eca.svg')/*rtl:ignore*/;
 }
 
 .no-svg .icon {
-  background-image: url('../../assets/images/sprites/sprite-551ce7e5.png')/*rtl:ignore*/;
+  background-image: url('../../assets/images/sprites/sprite-7f0b0eca.png')/*rtl:ignore*/;
 
 }
 
@@ -35,16 +35,22 @@ Instead edit gulp/templates/sprite */
   background-position: 98.20359281437126% 32.323232323232325%/*rtl:ignore*/;
 }
 
+.icon--check-pink {
+  width: 17px;
+  height: 18px;
+  background-position: 59.880239520958085% 64.64646464646465%/*rtl:ignore*/;
+}
+
 .icon--date {
   width: 17px;
   height: 16px;
-  background-position: 59.880239520958085% 63.366336633663366%/*rtl:ignore*/;
+  background-position: 70.05988023952096% 63.366336633663366%/*rtl:ignore*/;
 }
 
 .icon--down-arrow {
   width: 17px;
   height: 11px;
-  background-position: 70.05988023952096% 60.37735849056604%/*rtl:ignore*/;
+  background-position: 80.23952095808383% 60.37735849056604%/*rtl:ignore*/;
 }
 
 .icon--kaplan-logo {
@@ -56,7 +62,7 @@ Instead edit gulp/templates/sprite */
 .icon--left-arrow {
   width: 32px;
   height: 32px;
-  background-position: 51.31578947368421% 37.64705882352941%/*rtl:ignore*/;
+  background-position: 72.36842105263158% 37.64705882352941%/*rtl:ignore*/;
 }
 
 .icon--loc {
@@ -86,7 +92,7 @@ Instead edit gulp/templates/sprite */
 .icon--right-arrow {
   width: 32px;
   height: 32px;
-  background-position: 72.36842105263158% 37.64705882352941%/*rtl:ignore*/;
+  background-position: 51.31578947368421% 37.64705882352941%/*rtl:ignore*/;
 }
 
 .icon--time {

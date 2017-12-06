@@ -1,0 +1,101 @@
+
+.promotions {
+  width: 100%;
+  background-color: #f0f0f0;
+  min-height: 350px;
+
+
+  &__content {
+padding: 40px 0;
+    lost-center:100%
+
+
+  }
+
+
+  &__promo-box {
+    position: relative;
+    lost-column: 1/1;
+    border: 1px solid gainsboro;
+    padding: 15px;
+    background: white;
+
+
+    @mixin atMedium {
+      lost-column: 1/3;
+
+
+    }
+
+  }
+
+  &__promo-box-badge {
+    display: block;
+    position: absolute;
+    background: $pink;
+    top:0;
+    left: 0;
+    color: white;
+    font-size: 16px;
+    padding: 5px 10px;
+
+
+  }
+  &__promo-box-img {
+    width: 100%;
+    height: auto;
+
+
+  }
+  &__promo-box-heading{
+    font-size: 18px;
+    color: $darkGray;
+
+  }
+  &__promo-box-desc{
+    font-size: 14px;
+    color: $darkGray;
+
+  }
+  &__promo-box-ul{
+
+
+    list-style-type: none;
+    padding: 0;
+
+    li {
+      font-size: 14px;
+      font-weight: normal;
+      line-height: 140%;
+    }
+    .icon {
+      display: block;
+      float: left;
+      margin-right: 10px;
+    }
+  }
+
+  .btn {
+
+
+    padding: 10px;
+    max-width: 170px;
+    margin-top: 20px;
+
+  }
+
+
+
+
+
+
+  .arrow_down {
+    &:after {
+      border-top-color: #f0f0f0;
+    }
+  }
+
+}
+
+
+

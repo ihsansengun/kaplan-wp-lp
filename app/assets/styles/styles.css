@@ -27,7 +27,7 @@
 @import "modules/_course-grid.css";
 @import "modules/_price-table.css";
 @import "modules/_price-card.css";
-
+@import "modules/_promotions.css";
 
 @import "modules/_example-courses.pcss";
 @import "modules/_course-package.pcss";
@@ -44,7 +44,7 @@
 @import "base/_header.pcss";
 @import "base/_primary-nav.pcss";
 @import "modules/_reveal-item.pcss";
-@import "modules/_countdown.pcss";
+
 @import "modules/_form.pcss";
 
 

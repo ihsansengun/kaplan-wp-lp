@@ -409,10 +409,10 @@ p, ul, li {
 /* Do not edit modules/_sprite directly as it is generated automatically by Gulp.
 Instead edit gulp/templates/sprite */
 .icon {
-  background-image: url('../../assets/images/sprites/sprite-551ce7e5.svg')/*rtl:ignore*/;
+  background-image: url('../../assets/images/sprites/sprite-7f0b0eca.svg')/*rtl:ignore*/;
 }
 .no-svg .icon {
-  background-image: url('../../assets/images/sprites/sprite-551ce7e5.png')/*rtl:ignore*/;
+  background-image: url('../../assets/images/sprites/sprite-7f0b0eca.png')/*rtl:ignore*/;
 
 }
 .icon--booking {
@@ -435,15 +435,20 @@ Instead edit gulp/templates/sprite */
   height: 18px;
   background-position: 98.20359281437126% 32.323232323232325%/*rtl:ignore*/;
 }
+.icon--check-pink {
+  width: 17px;
+  height: 18px;
+  background-position: 59.880239520958085% 64.64646464646465%/*rtl:ignore*/;
+}
 .icon--date {
   width: 17px;
   height: 16px;
-  background-position: 59.880239520958085% 63.366336633663366%/*rtl:ignore*/;
+  background-position: 70.05988023952096% 63.366336633663366%/*rtl:ignore*/;
 }
 .icon--down-arrow {
   width: 17px;
   height: 11px;
-  background-position: 70.05988023952096% 60.37735849056604%/*rtl:ignore*/;
+  background-position: 80.23952095808383% 60.37735849056604%/*rtl:ignore*/;
 }
 .icon--kaplan-logo {
   width: 184px;
@@ -453,7 +458,7 @@ Instead edit gulp/templates/sprite */
 .icon--left-arrow {
   width: 32px;
   height: 32px;
-  background-position: 51.31578947368421% 37.64705882352941%/*rtl:ignore*/;
+  background-position: 72.36842105263158% 37.64705882352941%/*rtl:ignore*/;
 }
 .icon--loc {
   width: 11px;
@@ -478,7 +483,7 @@ Instead edit gulp/templates/sprite */
 .icon--right-arrow {
   width: 32px;
   height: 32px;
-  background-position: 72.36842105263158% 37.64705882352941%/*rtl:ignore*/;
+  background-position: 51.31578947368421% 37.64705882352941%/*rtl:ignore*/;
 }
 .icon--time {
   width: 14px;
@@ -2736,6 +2741,140 @@ text-align: center;
 .price-card .price-box span {
 
    }
+.promotions {
+  width: 100%;
+  background-color: #f0f0f0;
+  min-height: 350px;
+
+}
+.promotions__content {
+padding: 40px 0;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-orient:horizontal;
+    -webkit-box-direction:normal;
+        -ms-flex-flow:row wrap;
+            flex-flow:row wrap;
+    max-width:100%;
+    margin-left:auto;
+    margin-right:auto
+
+
+  }
+.promotions__promo-box {
+    position: relative;
+    -webkit-box-flex: 0;
+        -ms-flex-positive: 0;
+            flex-grow: 0;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    -ms-flex-preferred-size: calc(99.9% * 1/1 - (30px - 30px * 1/1));
+        flex-basis: calc(99.9% * 1/1 - (30px - 30px * 1/1));
+    max-width: calc(99.9% * 1/1 - (30px - 30px * 1/1));
+    width: calc(99.9% * 1/1 - (30px - 30px * 1/1));
+    border: 1px solid gainsboro;
+    padding: 15px;
+    background: white;
+
+  }
+.promotions__promo-box:nth-child(1n) {
+    margin-right: 30px;
+    margin-left: 0;
+
+  }
+.promotions__promo-box:last-child {
+    margin-right: 0;
+
+  }
+.promotions__promo-box:nth-child(1n) {
+    margin-right: 0;
+    margin-left: auto;
+
+  }
+@media (min-width: 890px) {
+.promotions__promo-box {
+      -webkit-box-flex: 0;
+          -ms-flex-positive: 0;
+              flex-grow: 0;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+      -ms-flex-preferred-size: calc(99.9% * 1/3 - (30px - 30px * 1/3));
+          flex-basis: calc(99.9% * 1/3 - (30px - 30px * 1/3));
+      max-width: calc(99.9% * 1/3 - (30px - 30px * 1/3));
+      width: calc(99.9% * 1/3 - (30px - 30px * 1/3))
+
+  }
+.promotions__promo-box:nth-child(1n) {
+      margin-right: 30px;
+      margin-left: 0
+
+  }
+.promotions__promo-box:last-child {
+      margin-right: 0
+
+  }
+.promotions__promo-box:nth-child(3n) {
+      margin-right: 0;
+      margin-left: auto
+
+  }
+  }
+.promotions__promo-box-badge {
+    display: block;
+    position: absolute;
+    background: #ed174f;
+    top:0;
+    left: 0;
+    color: white;
+    font-size: 16px;
+    padding: 5px 10px;
+
+
+  }
+.promotions__promo-box-img {
+    width: 100%;
+    height: auto;
+
+
+  }
+.promotions__promo-box-heading{
+    font-size: 18px;
+    color: #202020;
+
+  }
+.promotions__promo-box-desc{
+    font-size: 14px;
+    color: #202020;
+
+  }
+.promotions__promo-box-ul{
+
+
+    list-style-type: none;
+    padding: 0;
+  }
+.promotions__promo-box-ul li {
+      font-size: 14px;
+      font-weight: normal;
+      line-height: 140%;
+    }
+.promotions__promo-box-ul .icon {
+      display: block;
+      float: left;
+      margin-right: 10px;
+    }
+.promotions .btn {
+
+
+    padding: 10px;
+    max-width: 170px;
+    margin-top: 20px;
+
+  }
+.promotions .arrow_down:after {
+      border-top-color: #f0f0f0;
+    }
 .example-courses {
   width: 100%;
   float: left;
@@ -4642,74 +4781,6 @@ width: 100%;
     opacity: 1;
     -webkit-transform: scale(1);
             transform: scale(1)
-  }
-.countdown {
-  width: 100%;
-  margin: 20px 0 10px 0;
-
-
-}
-.countdown .timer-body-block {
-    text-align: center;
-  }
-.countdown .table-cell {
-    display: inline-block;
-    width: 58px;
-    text-align: center;
-    color: white;
-
-  }
-@media (min-width: 890px) {
-.countdown .table-cell {
-      width: 58px
-
-  }
-  }
-@media (min-width: 1170px) {
-.countdown .table-cell {
-      width: 70px
-
-  }
-  }
-.countdown .tab-val {
-    font-size: 34px;
-    margin: 4px;
-    padding: 10px 5px;
-    background-image:url("../../assets/images/counter-bg.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-
-  }
-@media (min-width: 890px) {
-.countdown .tab-val {
-      font-size: 28px
-
-  }
-  }
-@media (min-width: 1170px) {
-.countdown .tab-val {
-      font-size: 42px
-
-  }
-  }
-.countdown .day {
-    font-size: 46px;
-  }
-.countdown .tab-metr {
-    font-size: 12px;
-    text-transform: uppercase;
-    font-weight: 700;
-    color: white;
-    text-shadow: 1px 1px 9px rgba(150, 150, 150, 0.45);
-
-
-
-  }
-.countdown-dark .tab-metr {
-
-    color: #202020;
-
-
   }
 .form {
   min-height: 500px;
